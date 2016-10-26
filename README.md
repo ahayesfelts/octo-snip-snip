@@ -24,7 +24,7 @@ Our contribution addresses the ability of read-manipulation programs to remove p
 
 ## Constraints
 octo-snip-snip, currently, only accepts input files of type:
-* .fast
+* .fasta
 - .fa
 + .fna
 - .csfasta
