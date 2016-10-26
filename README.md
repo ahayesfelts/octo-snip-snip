@@ -56,7 +56,7 @@ octo-snip-snip, currently, only accepts input files of type:
 + .cfs
 * .fastq
 + .fq
-* The output file will be of the same type as the input file
+The output file will be of the same type as the input file
 
 ## Motivation
 Gaining accurate data from DNA sequences at each stage of the analysis is an essential part of genomic, transcriptomic, and proteomic studies; one of the foundational steps for these analyses is the accurate, and timely, location and removal of adaptors, primers, poly-A tails, and other wanted sequences from high throughput sequencing reads. A primary motivation behind our contribution is to improve the ability of existing read-manipulation programs that remove a sequence portion upstream or downstream from an adapter, without removing the adapter itself.
