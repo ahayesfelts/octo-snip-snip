@@ -56,7 +56,6 @@ octo-snip-snip, currently, only accepts input files of type:
 + .cfs
 * .fastq
 + .fq
-
 * The output file will be of the same type as the input file
 
 ## Motivation
