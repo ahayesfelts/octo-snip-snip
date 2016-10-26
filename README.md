@@ -21,7 +21,7 @@ Our contribution addresses the ability of read-manipulation programs to remove p
 
 ## Example Usage 
 
-# To remove the adaptor only:
+### To remove the adaptor only:
 octosnipsnip -a ADAPTER -g -o outputseq.fasta input.fasta
 
 This will remove either 5' or 3' adapters, or a combination of the two; it is especially useful when your adapter is ligated 
@@ -29,20 +29,21 @@ to the 5' end for some reads and to the 3' end in other reads, if your adapter i
 
 
 
-# To remove X base pairs upstream from an adapter:
+### To remove X base pairs upstream from an adapter:
 octosnipsnip -a ADAPTER SEQUENCE -c NUMBER OF BASE PAIRS -o output.fastq input.fastq
 
 This will remove only the base pairs upstream from a 3' adapter, without removing the adaptor itself.
 
 
 
-# To remove X base pairs downstream from an adapter:
+### To remove X base pairs downstream from an adapter:
 octosnipsnip -a ADAPTER SEQUENCE -b NUMBER OF BASE PAIRS -o output.fastq input.fastq
 
 This will remove only the base pairs downstream from a 5' adapter, without the removing the adapter itself.
 
 
-# To remove both X base pairs upstream from the adapter, as well as the adapter:
+
+### To remove both X base pairs upstream from the adapter, as well as the adapter:
 octosnipsnip -a ADAPTER SEQUENCE -g -c NUMBER OF BASE PAIRS -o output.fasta input.fasta
 
 
